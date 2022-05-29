@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Hexo</title><meta name="author" content="YiHang"><link rel="shortcut icon" href="/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220527203025.jpg"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><meta name="generator" content="Hexo 6.2.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Hexo</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/#Publications"> Publications</a></li><li class="menus_item"><a class="site-page" href="/"> About</a></li><li class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://phower.me"> Blog</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/8%7DDU%5B5NBL%60S@%5D@CB%7BB%7B_@5N.png" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3>YiHang</h3><p class="author-bio">I am new here.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-icons"><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-weibo" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-weixin" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-qq" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a></li></ul><ul class="social-links"><li><a class="e-social-link" href="/" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="/" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul></div><a class="cv-links" href="/attaches/CV.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My Detail CV.</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><article><p>Spark-Standalone-HA模式<br>Spark Standalone集群是Master-Slaves架构的集群模式,和大部分的Master-Slaves结构集群一样,存在<br>着Master 单点故障(SPOF)的问题。简单理解为，spark-Standalone 模式下为 master 节点控制其他节<br>点，当 master 节点出现故障时，集群就不可用了。 spark-Standalone-HA 模式下<br>master 节点不固定，当一个宕机时，立即换另一台为 master 保障不出现故障。<br>此处因为先前配置时的 zookeeper 版本和 spark 版本不太兼容，导致此模式有故障，需要重新下<br>载配置新的版本的 zookeeper<br>配置之前需要删除三台主机的 旧版 zookeeper 以及 对应的软连接<br>在 master 节点上重新进行前面配置的 zookeeper 操作</p>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Hexo</title><meta name="author" content="YiHang"><link rel="shortcut icon" href="/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220527203025.jpg"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><meta name="generator" content="Hexo 6.2.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Hexo</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/#Publications"> Publications</a></li><li class="menus_item"><a class="site-page" href="/"> About</a></li><li class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://phower.me"> Blog</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/8%7DDU%5B5NBL%60S@%5D@CB%7BB%7B_@5N.png" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3>YiHang</h3><p class="author-bio">I am new here.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-icons"><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-weibo" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-weixin" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fab fa-qq" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li><li><a class="social-icon" href="/" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a></li></ul><ul class="social-links"><li><a class="e-social-link" href="/" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="/" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul></div><a class="cv-links" href="/attaches/CV.pdf" target="_blank"><i class="fas fa-file-pdf" aria-hidden="true"><span>My Detail CV.</span></i></a></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><article><h1 id="《Spark-Standalone-HA模式》"><a href="#《Spark-Standalone-HA模式》" class="headerlink" title="《Spark-Standalone-HA模式》"></a>《Spark-Standalone-HA模式》</h1><details>
+<summary>阅读全文</summary>
+
+<p>**<summary>Spark Standalone集群是Master-Slaves架构的集群模式,和大部分的Master-Slaves结构集群一样,存在<br>着Master 单点故障(SPOF)的问题。简单理解为，spark-Standalone 模式下为 master 节点控制其他节<br>点，当 master 节点出现故障时，集群就不可用了。 spark-Standalone-HA 模式下<br>master 节点不固定，当一个宕机时，立即换另一台为 master 保障不出现故障。<br>此处因为先前配置时的 zookeeper 版本和 spark 版本不太兼容，导致此模式有故障，需要重新下<br>载配置新的版本的 zookeeper<br>配置之前需要删除三台主机的 旧版 zookeeper 以及 对应的软连接<br>在 master 节点上重新进行前面配置的 zookeeper 操作</p>
 <blockquote>
 <blockquote>
 <blockquote>
@@ -196,17 +199,7 @@ scp spark-env.sh slave2:/export/server/spark/conf/
 </blockquote>
 </blockquote>
 </blockquote>
-</details>
-
-
-
-
-<hr>
-<p>title: ‘《Spark local&amp; stand-alone配置》’<br>toc: false<br>comments: true<br>keywords: ‘’<br>description: ‘’<br>date: 2022-05-22 16:18:57<br>updated: 2022-05-22 16:18:57<br>categories:<br>tags:<br>top:<br>academia: true</p>
-<hr>
-<h1 id="《Spark-local-amp-stand-alone配置》"><a href="#《Spark-local-amp-stand-alone配置》" class="headerlink" title="《Spark local&amp; stand-alone配置》"></a>《Spark local&amp; stand-alone配置》</h1><details>
-<summary>阅读全文</summary>
-
+<p>《Spark local&amp; stand-alone配置》</p>
 <p>**<summary>本地模式(单机) 本地模式就是以一个独立的进程,通过其内部的多个线程来模拟整个Spark运行时环境<br>Anaconda On Linux 安装 (单台服务器脚本安装)<br>安装上传安装包: 资料中提供的Anaconda3-2021.05-Linux-x86_64.sh文件到Linux服务器上安装<br>位置在 &#x2F;export&#x2F;server:</p>
 <blockquote>
 <blockquote>
@@ -461,7 +454,13 @@ start-yarn.sh
 <p>   浏览器访问： <a target="_blank" rel="noopener" href="http://master:18080/">http://master:18080/</a></p>
 </blockquote>
 </blockquote>
-</article><article><h1 id="《spark基础环境配置》"><a href="#《spark基础环境配置》" class="headerlink" title="《spark基础环境配置》"></a>《spark基础环境配置》</h1><p>打开一个hosts映射文件,为了保证后续相互关联的虚拟机能够通过主机名进行访问，根据实际需求配置<br>对应的IP和主机名映射，分别将主机名master、slave1、slave2 与IP地址 192.168.88.134、<br>192.168.88.135 和192.168.88.136进行了匹配映射(这里通常要根据实际需要，将要搭建的集群主机都<br>配置主机名和IP映射)。<br>编辑 &#x2F;etc&#x2F;hosts 文件</p>
+<p>**</p>
+</details>
+
+<h2 id="感谢观看"><a href="#感谢观看" class="headerlink" title="感谢观看"></a>感谢观看</h2></article><article><h1 id="《spark基础环境配置》"><a href="#《spark基础环境配置》" class="headerlink" title="《spark基础环境配置》"></a>《spark基础环境配置》</h1><details>
+<summary>阅读全文</summary>
+
+<p>**<summary>打开一个hosts映射文件,为了保证后续相互关联的虚拟机能够通过主机名进行访问，根据实际需求配置<br>对应的IP和主机名映射，分别将主机名master、slave1、slave2 与IP地址 192.168.88.134、<br>192.168.88.135 和192.168.88.136进行了匹配映射(这里通常要根据实际需要，将要搭建的集群主机都<br>配置主机名和IP映射)。<br>编辑 &#x2F;etc&#x2F;hosts 文件</p>
 <blockquote>
 <blockquote>
 <blockquote>
@@ -929,7 +928,14 @@ hdfs namenode -format
 </blockquote>
 </blockquote>
 </blockquote>
-</article><article><h1 id="《Spark-HA-amp-Yarn配置》"><a href="#《Spark-HA-amp-Yarn配置》" class="headerlink" title="《Spark HA &amp; Yarn配置》"></a>《Spark HA &amp; Yarn配置》</h1><p>Spark-Standalone-HA模式<br>Spark Standalone集群是Master-Slaves架构的集群模式,和大部分的Master-Slaves结构集群一样,存在<br>着Master 单点故障(SPOF)的问题。简单理解为，spark-Standalone 模式下为 master 节点控制其他节<br>点，当 master 节点出现故障时，集群就不可用了。 spark-Standalone-HA 模式下<br>master 节点不固定，当一个宕机时，立即换另一台为 master 保障不出现故障。<br>此处因为先前配置时的 zookeeper 版本和 spark 版本不太兼容，导致此模式有故障，需要重新下<br>载配置新的版本的 zookeeper<br>配置之前需要删除三台主机的 旧版 zookeeper 以及 对应的软连接<br>在 master 节点上重新进行前面配置的 zookeeper 操作</p>
+<p>**</p>
+</details>
+
+<hr>
+</article><article><h1 id="《Spark-HA-amp-Yarn配置》"><a href="#《Spark-HA-amp-Yarn配置》" class="headerlink" title="《Spark HA &amp; Yarn配置》"></a>《Spark HA &amp; Yarn配置》</h1><details>
+<summary>阅读全文</summary>
+
+<p>**<summary>Spark-Standalone-HA模式<br>Spark Standalone集群是Master-Slaves架构的集群模式,和大部分的Master-Slaves结构集群一样,存在<br>着Master 单点故障(SPOF)的问题。简单理解为，spark-Standalone 模式下为 master 节点控制其他节<br>点，当 master 节点出现故障时，集群就不可用了。 spark-Standalone-HA 模式下<br>master 节点不固定，当一个宕机时，立即换另一台为 master 保障不出现故障。<br>此处因为先前配置时的 zookeeper 版本和 spark 版本不太兼容，导致此模式有故障，需要重新下<br>载配置新的版本的 zookeeper<br>配置之前需要删除三台主机的 旧版 zookeeper 以及 对应的软连接<br>在 master 节点上重新进行前面配置的 zookeeper 操作</p>
 <blockquote>
 <blockquote>
 <blockquote>
@@ -1127,4 +1133,11 @@ scp spark-env.sh slave2:/export/server/spark/conf/
 </blockquote>
 </blockquote>
 </blockquote>
+<p>**</p>
+</details>
+感谢观看
+---
+
+
+
 </article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/#Publications"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/"> About</a></li><li class="nav_item"><a class="nav-page" target="_blank" rel="noopener" href="https://phower.me"> Blog</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2022 by YiHang</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>
